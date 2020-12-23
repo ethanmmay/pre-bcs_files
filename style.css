@@ -1,0 +1,19 @@
+.one {
+    font-size: xx-large;
+}
+
+body {
+    background-color: darkslategray;
+}
+
+p,
+div {
+    border: 25px dotted olive;
+    display: block;
+    height: 250px;
+    width: 500px;
+}
+
+div+p {
+    border: 25px line red;
+}
